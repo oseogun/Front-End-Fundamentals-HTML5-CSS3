@@ -1,0 +1,160 @@
+@media only screen and (max-width: 400px) {
+  /* For mobile phones: */
+  header, footer {
+    background-color: grey;
+  }
+
+  #alternatives{
+    visibility: hidden;
+  }
+
+}
+
+@media  (min-width: 400px) and (max-width: 750px) {
+  /* For tablets: */
+
+  header, footer {
+    background-color: orange;
+  }
+
+}
+
+@media (min-width: 750px) {
+  /* For Desktop: */
+
+  header, footer {
+    background-color: brown;
+  }
+
+
+
+}
+
+body {
+  background-color: linen;
+  margin: 0%;
+}
+
+header, footer {
+  /*background-color: brown;*/
+  display: flex;
+  justify-content: center;
+  color: white;
+
+}
+
+header section nav{
+display: flex;
+
+color: white;
+}
+
+#logo{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: normal;
+}
+
+header section nav a {
+color: white;
+text-decoration: none;
+}
+
+header section nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 0%;
+
+}
+
+header section nav ul li{
+  padding-right: 10px;
+
+}
+
+header section nav ul li:before{
+  content: none;
+}
+
+header section nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+main section{
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+section {
+  margin: 0% 10%;
+  background-color: inherit;
+}
+
+
+section#examples ul{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+}
+section#examples ul li{
+ margin: 2.5%;
+}
+section#examples ul li:before{
+  content: none;
+}
+
+p span{
+  font-style: italic;
+  font-weight: bold;
+}
+
+p span:last-child {
+  text-decoration: underline;
+}
+
+.paragraph {
+  font-size: 20px;
+}
+
+.lists {
+  font-size: 20px;
+}
+
+ul li{
+  list-style: none;
+}
+
+ul li:before {
+  content: '\1F374';
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+ol li {
+  list-style: upper-roman;
+}
+
+.secondary_heading {
+  padding-bottom: 5px;
+}
+
+.primary_heading {
+  font-style: italic; /* Unused property */
+  font-weight: 900;
+  text-decoration: underline;
+
+}
+
+.firstSpan {
+  font-style: normal;
+  font-weight: normal;
+  color: red;
+}
+
+
+/* < 400px */
+/* 401px - 750px */
+/* > 750px */

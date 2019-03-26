@@ -1,0 +1,51 @@
+body {
+  background-color: linen;
+}
+
+p span{
+  font-style: italic;
+  font-weight: bold;
+}
+
+p span:last-child {
+  text-decoration: underline;
+}
+
+.paragraph {
+  font-size: 30px;
+}
+
+.lists {
+  font-size: 20px;
+}
+
+ul li{
+  list-style: none;
+}
+
+ul li:before {
+  content: '\1F374';
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+ol li {
+  list-style: upper-roman;
+}
+
+.secondary_heading {
+  padding-bottom: 5px;
+}
+
+.primary_heading {
+  font-style: italic; /* Unused property */
+  font-weight: 900;
+  text-decoration: underline;
+
+}
+
+.firstSpan {
+  font-style: normal;
+  font-weight: normal;
+  color: red;
+}
